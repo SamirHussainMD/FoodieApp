@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.totalwrapper{
+    width: 100% ;
+    height: 100%;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+.header-content{
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    height:100px;
+    margin-left: 0px;
+    margin-right: auto;
+    align-items: center;
+    /* display: inline-block; */
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+.user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+.profilepic{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* border: 10px;
+    background-color: beige; */
+    border: 20px solid white;
+    border-radius: 50%;
+}
+.main-content{
+    color: rgb(91,75,83);
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.card{
+    width: 300px;
+    margin: 30px 20px;
+    display: inline-block;
+}
+
+.Restaurant-image{
+    width: 100%;
+}
+
+.Restaurant-name{
+    font-style: sans sherif;
+    font-size: 24px;
+}
+
+.location{
+    width: 100%;
+    display: inline-block;
+}
+
+.logo-location{
+    display: inline-block;
+}
+
+.distance{
+    display: inline-block;
+}
+
+.line{
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.Reviews{
+    text-align: right;
+}
+
